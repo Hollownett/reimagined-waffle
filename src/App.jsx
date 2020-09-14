@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./App.css";
 import Toast from "./components/Toast/Toast";
-import checkIcon from "./assets/check.svg";
+import succsessIcon from "./assets/success.svg";
 import errorIcon from "./assets/error.svg";
 import infoIcon from "./assets/info.svg";
 import warningIcon from "./assets/warning.svg";
@@ -57,7 +57,7 @@ const App = () => {
           title: "Success",
           description: "This is a success toast component",
           backgroundColor: "#5cb85c",
-          icon: checkIcon,
+          icon: succsessIcon,
         };
         break;
       case "danger":
